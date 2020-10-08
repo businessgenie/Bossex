@@ -51,7 +51,7 @@ public class Bossex extends Application {
     public void start(Stage stage) throws Exception {
         initialise();
         final ImageView imv = new ImageView();
-        Image image1 = new Image(getClass().getResource(Bossex.baseURL+"Resources/BossexSplashScreen.png").toExternalForm());
+        Image image1 = new Image(getClass().getResource("/BusinessGenie/app/Bossex/Resources/BossexSplashScreen.png").toExternalForm());
         imv.setImage(image1);
         StackPane root1 = new StackPane();
         root1.getChildren().add(imv);

@@ -9,6 +9,13 @@
   <build>
     <plugins>
       <plugin>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.8.0</version>
+        <configuration>
+          <release>${maven.compiler.release}</release>
+        </configuration>
+      </plugin>
+      <plugin>
         <artifactId>maven-shade-plugin</artifactId>
         <version>3.2.0</version>
         <executions>
@@ -20,7 +27,7 @@
             <configuration>
               <transformers>
                 <transformer>
-                  <mainClass>BusinessGenie.app.Bossex.App</mainClass>
+                  <mainClass>BusinessGenie.app.Bossex.Bossex</mainClass>
                 </transformer>
               </transformers>
             </configuration>
@@ -42,25 +49,12 @@
         </exclusion>
       </exclusions>
     </dependency>
-    <dependency>
-      <groupId>org.openjfx</groupId>
-      <artifactId>javafx-graphics</artifactId>
-      <version>11.0.1</version>
-    </dependency>
-    <dependency>
-      <groupId>org.openjfx</groupId>
-      <artifactId>javafx-controls</artifactId>
-      <version>11.0.1</version>
-    </dependency>
-    <dependency>
-      <groupId>org.openjfx</groupId>
-      <artifactId>javafx-fxml</artifactId>
-      <version>11.0.1</version>
-    </dependency>
   </dependencies>
   <properties>
-    <maven.compiler.target>1.8</maven.compiler.target>
-    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.release>14</maven.compiler.release>
+    <maven.compiler.target>14</maven.compiler.target>
+    <maven.compiler.source>14</maven.compiler.source>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <javafx.version>14</javafx.version>
   </properties>
 </project>

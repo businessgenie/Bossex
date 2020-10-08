@@ -1,4 +1,4 @@
-package BusinessGenie.app;
+package BusinessGenie.app.Bossex;
 
 import org.apache.commons.codec.digest.DigestUtils;
 

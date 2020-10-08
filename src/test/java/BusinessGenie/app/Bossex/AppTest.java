@@ -1,4 +1,5 @@
-package BusinessGenie.app;
+package BusinessGenie.app.Bossex;
+import BusinessGenie.app.Bossex.App;
 import org.junit.Assert;
 import org.junit.Test;
 

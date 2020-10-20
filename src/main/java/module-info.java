@@ -5,7 +5,6 @@ module Bossex {
     requires javafx.controls;
     requires java.desktop;
     requires java.sql;
-    requires org.apache.commons.codec;
 
     opens BusinessGenie.app.Bossex.Views.Help;
     opens BusinessGenie.app.Bossex.Views.User;

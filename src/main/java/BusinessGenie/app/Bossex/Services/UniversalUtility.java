@@ -4,11 +4,18 @@ import BusinessGenie.app.Bossex.Bossex;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Node;
+import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.control.Tab;
+import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
 import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
 import java.io.IOException;
+import java.util.ListIterator;
+
+import static BusinessGenie.app.Bossex.Bossex.masterTabPane;
 
 public class UniversalUtility {
     public  void nextPage(ActionEvent event, String path, String title,boolean isDialog){
@@ -72,8 +79,7 @@ public class UniversalUtility {
         }
     }
 
-    public void refresh(String theme)
-    {
+    public void refresh(String theme){
         for (Scene scene : Bossex.scene) {
             if (scene != null) {
                 if(scene==Bossex.scene[0])continue;
@@ -81,5 +87,52 @@ public class UniversalUtility {
                 scene.getStylesheets().add(getClass().getResource(Bossex.baseURL + "Css/" + theme).toExternalForm());
             }
         }
+    }
+    public static int getTabIndex(String tabName)
+    {
+        int index=-1;
+        ListIterator<Tab> tabListIterator =masterTabPane.getTabs().listIterator();
+        for (ListIterator<Tab> it = tabListIterator; it.hasNext(); ) {
+            Tab tab = it.next();
+            if(tab.getText().equalsIgnoreCase(tabName))index=it.previousIndex();
+        }
+        return index;
+    }
+    public  static void openTab(String fxmlUrl,String resourcesUrl,String tabName,boolean isRepeatable) throws IOException {
+        if(isRepeatable)
+        {
+            addTab(fxmlUrl,resourcesUrl,tabName);
+        }
+        else
+        {
+            int index=getTabIndex(tabName);
+            if(index==-1)
+            {
+                addTab(fxmlUrl,resourcesUrl,tabName);
+            }
+            else {
+                masterTabPane.getSelectionModel().select(index);
+            }
+        }
+    }
+    public static void addTab(String fxmlUrl,String resourcesUrl,String tabName) throws IOException {
+        Parent loader = FXMLLoader.load(UniversalUtility.class.getResource(Bossex.baseURL+fxmlUrl));
+        Tab tab = new Tab(tabName,loader);
+        ImageView imageView=new ImageView(new Image(UniversalUtility.class.getResource(Bossex.baseURL+resourcesUrl).toExternalForm()));
+        imageView.setFitHeight(20);
+        imageView.setFitWidth(20);
+        tab.setGraphic(imageView);
+        masterTabPane.getTabs().add(tab);
+        masterTabPane.getSelectionModel().select(masterTabPane.getTabs().size()-1);
+    }
+    public static void openDialog(String fxmlUrl, String dialogTitle) throws IOException{
+        FXMLLoader loader = new FXMLLoader(UniversalUtility.class.getResource(Bossex.baseURL+fxmlUrl));
+        Pane rootNode = loader.load();
+        Scene scene = new Scene(rootNode);
+        Stage primaryStage=new Stage();
+        primaryStage.setResizable(false);
+        primaryStage.setTitle(dialogTitle);
+        primaryStage.setScene(scene);
+        primaryStage.show();
     }
 }

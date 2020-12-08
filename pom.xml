@@ -89,5 +89,10 @@
       <classifier>linux</classifier>
       <scope>compile</scope>
     </dependency>
+    <dependency>
+      <groupId>se.michaelthelin.spotify</groupId>
+      <artifactId>spotify-web-api-java</artifactId>
+      <version>6.5.1</version>
+    </dependency>
   </dependencies>
 </project>

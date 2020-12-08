@@ -30,7 +30,6 @@ public class Bossex extends Application {
     public static String baseURL;
     public static UsersModel userDetails;
     public static String appTitle;
-    public static Stage primaryStage;
     public static Scene[] scene;
     final static DecimalFormat df = new DecimalFormat("#.##");
     public static UniversalUtility universalUtility;
@@ -48,10 +47,10 @@ public class Bossex extends Application {
         //apiAccessor=new ApiAccessor();
     }
     @Override
-    public void start(Stage stage) throws Exception {
+    public void start(Stage stage) {
         initialise();
         final ImageView imv = new ImageView();
-        Image image1 = new Image(getClass().getResource("/BusinessGenie/app/Bossex/Resources/BossexSplashScreen.png").toExternalForm());
+        Image image1 = new Image(getClass().getResource(Bossex.baseURL+"Resources/BossexSplashScreen.png").toExternalForm());
         imv.setImage(image1);
         StackPane root1 = new StackPane();
         root1.getChildren().add(imv);

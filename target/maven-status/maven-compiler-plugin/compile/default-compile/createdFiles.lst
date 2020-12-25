@@ -2,11 +2,13 @@ BusinessGenie/app/Bossex/Views/Reports/ProductSellReportPage.class
 BusinessGenie/app/Bossex/Views/Reports/RegisterReportPage.class
 BusinessGenie/app/Bossex/Views/Sell/ImportSalesPage.class
 BusinessGenie/app/Bossex/Bossex$1$1.class
+BusinessGenie/app/Bossex/Views/User/AddUsersPage.class
 BusinessGenie/app/Bossex/Services/UniversalUtility.class
 BusinessGenie/app/Bossex/Views/Reports/TrendingProductsReportPage.class
 BusinessGenie/app/Bossex/Views/LoginPage/LoginPage.class
 BusinessGenie/app/Bossex/Views/Reports/TaxReportPage.class
 BusinessGenie/app/Bossex/Views/Home/TodoPage.class
+BusinessGenie/app/Bossex/Views/User/AddRolesPage.class
 BusinessGenie/app/Bossex/Views/User/UserManagementPage.class
 module-info.class
 BusinessGenie/app/Bossex/Views/Sell/SellReturnManagementPage.class
@@ -14,6 +16,7 @@ BusinessGenie/app/Bossex/Bossex.class
 BusinessGenie/app/Bossex/Views/Reports/ProfitLossReportPage.class
 BusinessGenie/app/Bossex/Views/Products/VariationsPage.class
 BusinessGenie/app/Bossex/Views/StockTransfers/AddStockTransferPage.class
+BusinessGenie/app/Bossex/Views/Tools/Calculator.class
 BusinessGenie/app/Bossex/Views/Expenses/ExpenseCategoriesPage.class
 BusinessGenie/app/Bossex/Views/Help/ContactSupport.class
 BusinessGenie/app/Bossex/Views/Sell/PosPage.class
@@ -21,6 +24,7 @@ BusinessGenie/app/Bossex/Temp.class
 BusinessGenie/app/Bossex/Views/Reports/SellPaymentReportPage.class
 BusinessGenie/app/Bossex/Views/Reports/PurchaseSaleReportPage.class
 BusinessGenie/app/Bossex/Views/Products/CategoriesManagementPage.class
+BusinessGenie/app/Bossex/Views/Contacts/AddCustomersPage.class
 BusinessGenie/app/Bossex/Views/Contacts/ImportContacts.class
 BusinessGenie/app/Bossex/Views/Products/BrandsManagementPage.class
 BusinessGenie/app/Bossex/Views/Sell/ShipmentManagementPage.class
@@ -42,6 +46,7 @@ BusinessGenie/app/Bossex/Views/Settings/BossexSettingsPage.class
 BusinessGenie/app/Bossex/Views/SettingsPage/SettingsPage.class
 BusinessGenie/app/Bossex/Views/Sell/AddSalePage.class
 BusinessGenie/app/Bossex/Views/Sell/PosManagementPage.class
+BusinessGenie/app/Bossex/Views/Products/BulkEditProductPage.class
 BusinessGenie/app/Bossex/Views/Sell/DraftManagementPage.class
 BusinessGenie/app/Bossex/Views/Help/GettingStartedPage.class
 BusinessGenie/app/Bossex/Models/InvoiceTableItem.class
@@ -64,6 +69,7 @@ BusinessGenie/app/Bossex/Views/Help/AboutPage.class
 BusinessGenie/app/Bossex/Views/Reports/SalesRepresentativeReportPage.class
 BusinessGenie/app/Bossex/Views/Reports/ExpenseReportPage.class
 BusinessGenie/app/Bossex/Views/Settings/NotificationTemplateSettingsPage.class
+BusinessGenie/app/Bossex/Models/Products/productsTableModel.class
 BusinessGenie/app/Bossex/Views/Products/PrintLabelPage.class
 BusinessGenie/app/Bossex/Views/Expenses/AddExpensesPage.class
 BusinessGenie/app/Bossex/Views/Settings/PrinterSettingsPage.class
@@ -76,6 +82,7 @@ BusinessGenie/app/Bossex/Views/Settings/InvoiceSettingsPage.class
 BusinessGenie/app/Bossex/Views/Settings/TaxRatesSettingsPage.class
 BusinessGenie/app/Bossex/Views/Settings/BusinessLocationPage.class
 BusinessGenie/app/Bossex/Views/Help/DemosAndScreencastPage.class
+BusinessGenie/app/Bossex/Views/Contacts/AddSuppliersPage.class
 BusinessGenie/app/Bossex/Views/Sell/DiscountManagementPage.class
 BusinessGenie/app/Bossex/Views/Help/SubmitFeedbackPage.class
 BusinessGenie/app/Bossex/Views/Products/ProductsManagementPage.class
@@ -89,3 +96,4 @@ BusinessGenie/app/Bossex/Api/ApiAccessor.class
 BusinessGenie/app/Bossex/Views/TempMaster.class
 BusinessGenie/app/Bossex/Views/Products/WarrantiesManagementPage.class
 BusinessGenie/app/Bossex/Views/Home/DashboardPage.class
+BusinessGenie/app/Bossex/Models/ImportContactsInstructionTemplate.class

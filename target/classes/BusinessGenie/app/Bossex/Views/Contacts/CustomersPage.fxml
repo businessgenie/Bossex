@@ -19,7 +19,7 @@
                                 </font>
                             </Label>
                         </HBox>
-                        <Button fx:id="addButton" mnemonicParsing="false" prefHeight="40.0" prefWidth="90" text="Add">
+                        <Button fx:id="addButton" onAction="#addButtonAction" mnemonicParsing="false" prefHeight="40.0" prefWidth="90" text="Add">
                             <graphic>
                                 <ImageView fx:id="addImageView" pickOnBounds="true"
                                            preserveRatio="true"/>

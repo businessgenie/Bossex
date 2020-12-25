@@ -44,6 +44,9 @@
 #addImageView{
     -fx-image: url("/BusinessGenie/app/Bossex/Resources/add.png");
 }
+#downloadTemplateImageView{
+    -fx-image: url("/BusinessGenie/app/Bossex/Resources/download.png");
+}
 #totalPurchaseImageView{
     -fx-image: url("/BusinessGenie/app/Bossex/Resources/totalPurchase.png");
 }
@@ -72,6 +75,18 @@
 #addPurchaseImageView{
     -fx-image: url("/BusinessGenie/app/Bossex/Resources/addPurchase.png");
 }
+#addUserImageView{
+    -fx-image: url("/BusinessGenie/app/Bossex/Resources/addUser.png");
+}
+#addRoleImageView{
+    -fx-image: url("/BusinessGenie/app/Bossex/Resources/addRoles.png");
+}
+#addSuppliersImageView{
+    -fx-image: url("/BusinessGenie/app/Bossex/Resources/addSupplier.png");
+}
+#addCustomersImageView{
+    -fx-image: url("/BusinessGenie/app/Bossex/Resources/addContacts.png");
+}
 #addSaleImageView{
     -fx-image: url("/BusinessGenie/app/Bossex/Resources/addSale.png");
 }
@@ -85,6 +100,70 @@
     -fx-image: url("/BusinessGenie/app/Bossex/Resources/user.png");
 }
 #manageRolesImageView{
+    -fx-image: url("/BusinessGenie/app/Bossex/Resources/manageRoles.png");
+}
+#manageGrievianceHandlingImageView
+{
+    -fx-image: url("/BusinessGenie/app/Bossex/Resources/manageRoles.png");
+}
+#manageEmployeeReassingmentImageView
+{
+    -fx-image: url("/BusinessGenie/app/Bossex/Resources/manageRoles.png");
+}
+#manageReportingAndAnalysisImageView
+{
+    -fx-image: url("/BusinessGenie/app/Bossex/Resources/manageRoles.png");
+}
+#manageLeaveImageView
+{
+    -fx-image: url("/BusinessGenie/app/Bossex/Resources/manageRoles.png");
+}
+#manageAbsenceImageView
+{
+    -fx-image: url("/BusinessGenie/app/Bossex/Resources/manageRoles.png");
+}
+#manageSchedulingAndRotaImageView
+{
+    -fx-image: url("/BusinessGenie/app/Bossex/Resources/manageRoles.png");
+}
+#recruitingImageView
+{
+    -fx-image: url("/BusinessGenie/app/Bossex/Resources/manageRoles.png");
+}
+#employeeSelfImageView
+{
+    -fx-image: url("/BusinessGenie/app/Bossex/Resources/manageRoles.png");
+}
+#hrPlanningImageView
+{
+    -fx-image: url("/BusinessGenie/app/Bossex/Resources/manageRoles.png");
+}
+#trackingAndManagingEmployeeBenefitsImageView
+{
+    -fx-image: url("/BusinessGenie/app/Bossex/Resources/manageRoles.png");
+}
+#managePayrollImageView
+{
+    -fx-image: url("/BusinessGenie/app/Bossex/Resources/manageRoles.png");
+}
+#administrationImageView
+{
+    -fx-image: url("/BusinessGenie/app/Bossex/Resources/manageRoles.png");
+}
+#manageEmployeePerformanceAndAppraisalImageView
+{
+    -fx-image: url("/BusinessGenie/app/Bossex/Resources/manageRoles.png");
+}
+#manageEmployeeHiringImageView
+{
+    -fx-image: url("/BusinessGenie/app/Bossex/Resources/manageRoles.png");
+}
+#manageOnboardingAndOffboardingImageView
+{
+    -fx-image: url("/BusinessGenie/app/Bossex/Resources/manageRoles.png");
+}
+#hrManagementTabImageView
+{
     -fx-image: url("/BusinessGenie/app/Bossex/Resources/manageRoles.png");
 }
 #salesCommissionAgentsImageView{
@@ -266,6 +345,18 @@
 }
 #expenseReportImageView{
     -fx-image: url("/BusinessGenie/app/Bossex/Resources/expenseReport.png");
+}
+#toolsTabImageView{
+    -fx-image: url("/BusinessGenie/app/Bossex/Resources/tools.png");
+}
+#calculatorToolImageView{
+    -fx-image: url("/BusinessGenie/app/Bossex/Resources/calculator.png");
+}
+#spreadSheetToolImageView{
+    -fx-image: url("/BusinessGenie/app/Bossex/Resources/spreadsheet.png");
+}
+#spotifyToolImageView{
+    -fx-image: url("/BusinessGenie/app/Bossex/Resources/spotify.png");
 }
 #registerReportImageView{
     -fx-image: url("/BusinessGenie/app/Bossex/Resources/previousOrder.png");

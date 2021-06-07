@@ -21,6 +21,7 @@ import javafx.util.Duration;
 import javax.swing.*;
 import java.io.IOException;
 import java.text.DecimalFormat;
+import java.util.Objects;
 
 public class Bossex extends Application {
     public static  String driverClass;
@@ -75,7 +76,7 @@ public class Bossex extends Application {
                             //the login page is opened by this code.
                             Parent root = null;
                             try {
-                                root = FXMLLoader.load(getClass().getResource(Bossex.baseURL+"Views/LoginPage/LoginPage.fxml"));
+                                root = FXMLLoader.load(Objects.requireNonNull(getClass().getResource(Bossex.baseURL + "Views/LoginPage/LoginPage.fxml")));
                             } catch (IOException e) {
                                 JOptionPane.showMessageDialog(null,e.getMessage(),"Error!!",JOptionPane.ERROR_MESSAGE);
                             }
@@ -95,9 +96,9 @@ public class Bossex extends Application {
     void initialiseScenes() {
         try {
             scene = new Scene[10];
-            scene[0] = new Scene(FXMLLoader.load(getClass().getResource(Bossex.baseURL+"Views/LoginPage/LoginPage.fxml")));
-            scene[1] = new Scene(FXMLLoader.load(getClass().getResource(Bossex.baseURL+"Views/MasterPage/MasterPage.fxml")));
-            scene[2] = new Scene(FXMLLoader.load(getClass().getResource(Bossex.baseURL+"Views/SettingsPage/SettingsPage.fxml")));
+            scene[0] = new Scene(FXMLLoader.load(Objects.requireNonNull(getClass().getResource(Bossex.baseURL + "Views/LoginPage/LoginPage.fxml"))));
+            scene[1] = new Scene(FXMLLoader.load(Objects.requireNonNull(getClass().getResource(Bossex.baseURL + "Views/MasterPage/MasterPage.fxml"))));
+            scene[2] = new Scene(FXMLLoader.load(Objects.requireNonNull(getClass().getResource(Bossex.baseURL + "Views/SettingsPage/SettingsPage.fxml"))));
 
             /*scene[3] = new Scene(FXMLLoader.load(getClass().getResource(Bossex.baseURL+"Views/Fxmls/SalesManager/SalesManagementPage.fxml")));
             scene[4] = new Scene(FXMLLoader.load(getClass().getResource(Bossex.baseURL+"Views/Fxmls/ReportManager/ReportManagementPage.fxml")));

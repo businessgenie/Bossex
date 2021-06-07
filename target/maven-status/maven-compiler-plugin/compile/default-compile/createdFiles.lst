@@ -15,6 +15,7 @@ BusinessGenie/app/Bossex/Views/Sell/SellReturnManagementPage.class
 BusinessGenie/app/Bossex/Bossex.class
 BusinessGenie/app/Bossex/Views/Reports/ProfitLossReportPage.class
 BusinessGenie/app/Bossex/Views/Products/VariationsPage.class
+BusinessGenie/app/Bossex/Models/RequestJSON/ApiHeaderModel.class
 BusinessGenie/app/Bossex/Views/StockTransfers/AddStockTransferPage.class
 BusinessGenie/app/Bossex/Views/Tools/Calculator.class
 BusinessGenie/app/Bossex/Views/Expenses/ExpenseCategoriesPage.class
@@ -59,15 +60,18 @@ BusinessGenie/app/Bossex/Views/Contacts/CustomerGroupsPage.class
 BusinessGenie/app/Bossex/Views/Purchases/PurchaseReturnManagementPage.class
 BusinessGenie/app/Bossex/Views/Reports/ItemsReportPage.class
 BusinessGenie/app/Bossex/Models/TodoTableItem.class
+BusinessGenie/app/Bossex/Models/JsonNode.class
 BusinessGenie/app/Bossex/Views/Products/AddProductPage.class
 BusinessGenie/app/Bossex/Views/Purchases/AddPurchasePage.class
 BusinessGenie/app/Bossex/Views/Contacts/SuppliersPage.class
 BusinessGenie/app/Bossex/Bossex$1.class
 BusinessGenie/app/Bossex/Views/Products/ImportProductPage.class
 BusinessGenie/app/Bossex/Views/Help/HelpPage.class
+BusinessGenie/app/Bossex/Models/RequestJSON/RequestJson.class
 BusinessGenie/app/Bossex/Views/Help/AboutPage.class
 BusinessGenie/app/Bossex/Views/Reports/SalesRepresentativeReportPage.class
 BusinessGenie/app/Bossex/Views/Reports/ExpenseReportPage.class
+BusinessGenie/app/Bossex/Models/RequestJSON/UniversalJson.class
 BusinessGenie/app/Bossex/Views/Settings/NotificationTemplateSettingsPage.class
 BusinessGenie/app/Bossex/Models/Products/productsTableModel.class
 BusinessGenie/app/Bossex/Views/Products/PrintLabelPage.class
@@ -84,6 +88,7 @@ BusinessGenie/app/Bossex/Views/Settings/BusinessLocationPage.class
 BusinessGenie/app/Bossex/Views/Help/DemosAndScreencastPage.class
 BusinessGenie/app/Bossex/Views/Contacts/AddSuppliersPage.class
 BusinessGenie/app/Bossex/Views/Sell/DiscountManagementPage.class
+BusinessGenie/app/Bossex/Models/RequestJSON/Parameter.class
 BusinessGenie/app/Bossex/Views/Help/SubmitFeedbackPage.class
 BusinessGenie/app/Bossex/Views/Products/ProductsManagementPage.class
 BusinessGenie/app/Bossex/Views/Reports/StockReportPage.class

@@ -7,10 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Bossex" />
+        <module name="Bossex (1)" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Bossex" target="14" />
+      <module name="Bossex (1)" target="14" />
     </bytecodeTargetLevel>
   </component>
 </project>

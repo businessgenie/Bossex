@@ -6,16 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="69c96768-fe82-4dd0-929a-78579c893303" name="Default Changelist" comment="Addition of filters and plugins in pom.xml">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bossex (1).iml" beforeDir="false" afterPath="$PROJECT_DIR$/Bossex (1).iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BusinessGenie/app/Bossex/Api/ApiAccessor.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/BusinessGenie/app/Bossex/Bossex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BusinessGenie/app/Bossex/Bossex.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BusinessGenie/app/Bossex/Views/LoginPage/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BusinessGenie/app/Bossex/Views/LoginPage/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/BusinessGenie/app/Bossex/Api/ApiAccessor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BusinessGenie/app/Bossex/Views/MasterPage/MasterPage.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BusinessGenie/app/Bossex/Views/MasterPage/MasterPage.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/BusinessGenie/app/Bossex/Bossex$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BusinessGenie/app/Bossex/Bossex$1$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/BusinessGenie/app/Bossex/Bossex$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BusinessGenie/app/Bossex/Bossex$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/BusinessGenie/app/Bossex/Bossex.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BusinessGenie/app/Bossex/Bossex.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/BusinessGenie/app/Bossex/Views/LoginPage/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BusinessGenie/app/Bossex/Views/LoginPage/LoginPage.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,32 +85,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JacksionExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BusinessGenie.app.Bossex.Models.RequestJSON.JacksionExample" />
-      <module name="Bossex" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="BusinessGenie.app.Bossex.Models.RequestJSON.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RequestJson" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BusinessGenie.app.Bossex.Models.RequestJSON.RequestJson" />
-      <module name="Bossex" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="BusinessGenie.app.Bossex.Models.RequestJSON.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Temp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BusinessGenie.app.Bossex.Temp" />
       <module name="Bossex" />
@@ -129,24 +98,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UniversalJson" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BusinessGenie.app.Bossex.Models.RequestJSON.UniversalJson" />
-      <module name="Bossex" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="BusinessGenie.app.Bossex.Models.RequestJSON.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+    <list>
+      <item itemvalue="Application.Bossex" />
+      <item itemvalue="Application.Bossex (1)" />
+      <item itemvalue="Application.Temp" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.JacksionExample" />
-        <item itemvalue="Application.RequestJson" />
-        <item itemvalue="Application.UniversalJson" />
         <item itemvalue="Application.Temp" />
       </list>
     </recent_temporary>
@@ -170,7 +128,21 @@
       <option name="project" value="LOCAL" />
       <updated>1608881634112</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Addition of filters and plugins in pom.xml">
+      <created>1623173496808</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1623173496808</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Addition of filters and plugins in pom.xml">
+      <created>1623173552578</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1623173552578</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

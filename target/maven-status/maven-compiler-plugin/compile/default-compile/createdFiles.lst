@@ -97,7 +97,6 @@ BusinessGenie/app/Bossex/Views/StockAdjustments/AddStockAdjustmentPage.class
 BusinessGenie/app/Bossex/Views/Contacts/CustomersPage.class
 BusinessGenie/app/Bossex/Views/User/SalesCommissionAgentPage.class
 BusinessGenie/app/Bossex/Views/Expenses/ExpensesManagementPage.class
-BusinessGenie/app/Bossex/Api/ApiAccessor.class
 BusinessGenie/app/Bossex/Views/TempMaster.class
 BusinessGenie/app/Bossex/Views/Products/WarrantiesManagementPage.class
 BusinessGenie/app/Bossex/Views/Home/DashboardPage.class

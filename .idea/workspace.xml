@@ -6,11 +6,19 @@
   <component name="ChangeListManager">
     <list default="true" id="69c96768-fe82-4dd0-929a-78579c893303" name="Default Changelist" comment="Addition of filters and plugins in pom.xml">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BusinessGenie/app/Bossex/Bossex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BusinessGenie/app/Bossex/Bossex.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BusinessGenie/app/Bossex/Views/MasterPage/MasterPage.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BusinessGenie/app/Bossex/Views/MasterPage/MasterPage.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/BusinessGenie/app/Bossex/Bossex$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BusinessGenie/app/Bossex/Bossex$1$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/BusinessGenie/app/Bossex/Bossex$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BusinessGenie/app/Bossex/Bossex$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/BusinessGenie/app/Bossex/Bossex.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BusinessGenie/app/Bossex/Bossex.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BusinessGenie/app/Bossex/Css/lightTheme.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BusinessGenie/app/Bossex/Css/lightTheme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BusinessGenie/app/Bossex/Services/UniversalUtility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BusinessGenie/app/Bossex/Services/UniversalUtility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BusinessGenie/app/Bossex/Views/Sell/AddSalePage.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BusinessGenie/app/Bossex/Views/Sell/AddSalePage.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BusinessGenie/app/Bossex/Views/Sell/AddSalePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BusinessGenie/app/Bossex/Views/Sell/AddSalePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Bossex-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/BusinessGenie/app/Bossex/Css/lightTheme.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BusinessGenie/app/Bossex/Css/lightTheme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/BusinessGenie/app/Bossex/Services/UniversalUtility.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BusinessGenie/app/Bossex/Services/UniversalUtility.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/BusinessGenie/app/Bossex/Views/Sell/AddSalePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BusinessGenie/app/Bossex/Views/Sell/AddSalePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/BusinessGenie/app/Bossex/Views/Sell/AddSalePage.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BusinessGenie/app/Bossex/Views/Sell/AddSalePage.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/original-Bossex-1.0-SNAPSHOT.jar" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +50,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/BusinessGenie/app/Bossex/Models" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/BusinessGenie/app/Bossex/Views/Sell" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -53,6 +61,8 @@
       <recent name="BusinessGenie.app.Bossex.Models" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/BusinessGenie/app/Bossex/Views/Sell" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/main/java/BusinessGenie/app/Bossex/Models" />
       <recent name="$PROJECT_DIR$/src/main/java/BusinessGenie/app/Bossex" />
     </key>
@@ -60,6 +70,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/BusinessGenie/app/Bossex" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="BusinessGenie.app.Bossex.Views.Sell" />
       <recent name="BusinessGenie.app.Bossex.Models.Employee" />
       <recent name="BusinessGenie.app.Bossex.Models.User" />
     </key>

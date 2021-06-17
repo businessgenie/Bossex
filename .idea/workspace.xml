@@ -6,11 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="69c96768-fe82-4dd0-929a-78579c893303" name="Default Changelist" comment="Addition of filters and plugins in pom.xml">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BusinessGenie/app/Bossex/Css/lightTheme.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BusinessGenie/app/Bossex/Css/lightTheme.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BusinessGenie/app/Bossex/Views/MasterPage/MasterPage.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BusinessGenie/app/Bossex/Views/MasterPage/MasterPage.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BusinessGenie/app/Bossex/Views/MasterPage/MasterPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BusinessGenie/app/Bossex/Views/MasterPage/MasterPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BusinessGenie/app/Bossex/Views/Sell/AddSalePage.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BusinessGenie/app/Bossex/Views/Sell/AddSalePage.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BusinessGenie/app/Bossex/Views/Sell/AddSalePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BusinessGenie/app/Bossex/Views/Sell/AddSalePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Bossex-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/Bossex-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/original-Bossex-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/original-Bossex-1.0-SNAPSHOT.jar" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +20,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="FxmlFile" />
         <option value="Class" />
       </list>
     </option>
